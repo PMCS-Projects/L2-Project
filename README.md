@@ -27,13 +27,13 @@ We must draft a potential rocket design and code a 3D simulation for its flight 
 ### Sprint 1
 
 Required Features:
-- [] Create pseudocode code for project
-- [] Initialize a Pygame window
-- [] Display a Sun in the center of screen
-- [] Display a Planet on screen
-- [] Add gravity to both objects
+- [ ] Create pseudocode code for project
+- [ ] Initialize a Pygame window
+- [ ] Display a Sun in the center of screen
+- [ ] Display a Planet on screen
+- [ ] Add gravity to both objects
 
 Optional Features:
-- [] Implementing MATPLOTLIB with Pygame
+- [ ] Implementing MATPLOTLIB with Pygame
 
 ### Sprint 2
