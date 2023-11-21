@@ -3,9 +3,9 @@ PMCS L2 Project
 
 ## Table of Contents
 
-**1.** [Overview](#Overview)
-**2.** [Leads](#Leads)
-**3.** [Sprints](#Sprints)
+1. [Overview](#Overview)
+2. [Leads](#Leads)
+3. [Sprints](#Sprints)
 
 ## Overview
 
