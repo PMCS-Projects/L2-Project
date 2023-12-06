@@ -9,7 +9,7 @@ yellow = (255, 255, 0)
 blue = (0, 0, 255)
 
 # Screen size
-screen = pygame.display.set_mode((1000, 1000))
+screen = pygame.display.set_mode((600, 400))
 
 # Name of the window
 pygame.display.set_caption('Sun and Earth Simulation')
