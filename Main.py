@@ -4,7 +4,7 @@ import sys
 import math
 
 # Variables to create colors
-white = (255, 255, 255)
+bg_Color = pygame.Color("#18191A")
 yellow = (255, 255, 0)
 blue = (0, 0, 255)
 
@@ -42,7 +42,7 @@ while running:
             running = False
 
     # Clear the screen
-    screen.fill(white)
+    screen.fill(bg_Color)
 
     # Draw the sun
     pygame.draw.circle(screen, yellow, sun_position, sun_radius)
