@@ -8,8 +8,10 @@ white = (255, 255, 255)
 yellow = (255, 255, 0)
 blue = (0, 0, 255)
 
+x = 600
+y = 400
 # Screen size
-screen = pygame.display.set_mode((600, 400))
+screen = pygame.display.set_mode((x, y), pygame.RESIZABLE)
 
 # Name of the window
 pygame.display.set_caption('Sun and Earth Simulation')
@@ -18,8 +20,10 @@ pygame.display.set_caption('Sun and Earth Simulation')
 pygame.init()
 
 # Set up sun properties
+sunX = x * .5
+sunY = y * .5
 sun_radius = 50
-sun_position = (0, 0)
+sun_position = (sunX, sunY)
 
 # Set up earth properties
 earth_radius = 20
@@ -42,6 +46,10 @@ while running:
 
     # Draw the sun
     pygame.draw.circle(screen, yellow, sun_position, sun_radius)
+    # position the sun
+    sunX = x * .5
+    sunY = y * .5
+    sun_position = (sunX, sunY)
 
     # Update earth position
     earth_x = sun_position[0] + earth_distance * math.cos(math.radians(earth_angle))
@@ -58,6 +66,9 @@ while running:
 
     # Cap the frame rate
     clock.tick(fps)
+
+    # screen size
+    x, y = screen.get_size()
 
 # Quit pygame and exit the program
 pygame.quit()
